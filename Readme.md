@@ -1,50 +1,26 @@
-Statistical Computing Group Project: Quantifying the Post-2007 Election Impact on Kenya
+**Project Title:** Statistical Analysis of Socio-Economic Shocks: The Case of the 2007 Kenyan Elections
 
-Group Member Details
-This project was developed by the following five-member team:
+**Abstract**
+This study applies advanced statistical computing techniques to measure the impact of the 2007 General Elections on Kenya's economic stability. By analyzing time-series data regarding Quarterly GDP Growth and Tourism Revenue, we quantify the magnitude and duration of the post-election regression. The project adopts a tri-language methodology—integrating Python, R, and Julia—to optimize specific stages of the data pipeline, from acquisition to high-performance simulation.
 
-VALERY MWENDE MWITI
-0743447143
+**Methodology & Structure**
+The analysis is divided into three distinct phases, each utilizing the programming language best suited for the task:
 
-MARK GICHUHI
-0712098136
+1.  **Data Acquisition & EDA (Python - `folder_one`):** Efficient handling of raw data and initial exploratory analysis.
+2.  **Statistical Inference (R - `folder_two`):** rigorous modeling (ARIMA) and generation of high-quality visual outputs.
+3.  **Simulation & Benchmarking (Julia - `folder_three`):** Modeling post-shock recovery dynamics using high-performance computing.
 
-SARAH KAGIA
-0708514673
+**Contributors**
+* Jesse Jason (BSCCS/2023/62981)
+* Abdihakim Ibrahim (BSCCS/2023/63180)
+* Omega Makena (BSCCS/2023/62934)
+* Mahirwe Tresor (BSCCS/2023/63054)
+* Sadiek Ahmed (BSCCS/2023/63778)
 
-KEITH MUREGA
-0707451296
+---
 
-KUNTAI NATHAN
-0757680399
-
-
-Repository Structure
-
-README.md
-Project overview and team information.
-
-folder_one
-Data Acquisition and Exploratory Data Analysis (EDA) in Python.
-
-folder_two
-Advanced Statistical Analysis and Visualizations in R.
-
-folder_three
-Content for Presentation 3: Modeling, Simulation, and Performance Metrics in Julia.
-
-
-Project Overview: Quantifying the Post-2007 Election Impact on Kenya
-This project conducts a rigorous statistical analysis using time-series data to quantify the socio-economic shock following the 2007 Kenyan General Elections.
-
-The study aims to estimate the precise magnitude and duration of the regression in key national indicators, such as Quarterly GDP Growth and Tourism Revenue.
-
-By utilizing a three-language approach, we demonstrate mastery of statistical computing workflows:
-
-Python (folder_one): Used for efficient Data Acquisition, Cleaning, and Exploratory Data Analysis (EDA).
-
-R (folder_two): Used for Advanced Statistical Modeling (e.g., ARIMA) and generating high-quality, interpretive visualizations.
-
-Julia (folder_three): Used for Computational Benchmarking and High-Performance Simulation to model the post-shock recovery dynamics.
-
-The findings provide crucial data-driven insights for risk assessment and policy planning for future periods of potential political instability in Kenya.
+### Key Improvements Made:
+* **Standardized IDs:** Changed mixed casing (Bsccs/bsccs) to a uniform `BSCCS` for professionalism.
+* **Visual Hierarchy:** Used bolding and bullet points to make the languages and folders easier to scan.
+* **Clarity:** Refined the language to sound more active (e.g., "demonstrate mastery" instead of "we demonstrate mastery").
+* **Context:** Explicitly labeled what the "Folders" contain in the header (e.g., adding `(Python)` next to `folder_one`).
